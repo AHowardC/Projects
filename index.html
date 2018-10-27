@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+
+	<!-- Dev Icons  -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+
+	<link rel="stylesheet" href="animate.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+
+	<!-- JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- FONT AWSOME -->
+	<script src="http://use.fontawesome.com/2a35e63884.js"></script>
+	<!-- ISO -->
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+	<script src="JS/lettering.min.js"></script>
+	<script src="JS/textillate.js"></script>
+	<!-- CUSTOM -->
+	<script type="text/javascript" src="JS/script.js"></script>
+
+	<title>AHowardC</title>
+</head>
+<body>
+
+	<!-- Header Showcase -->
+
+	<header id="showcase">
+		<div class="bg-image"></div>
+
+		<div class="content-wrap">
+			<h1>Welcome</h1>
+			<p class="tlt">Thanks for visiting my website. Please feel free to look at some of my projects.</p>
+			<script type="text/javascript">
+			$('.tlt').textillate({
+				in: { effect: 'rollIn', delay:10},
+				out: { effect: 'rollOut'},
+				loop: true
+			});
+			</script>
+
+			<a href="#section-b" class="btn">Click For Projects</a>
+		</div>
+		<div class="social">
+			<a href="https://github.com/AHowardC" target='_blank'><i class="fa fa-github fa-2x github" aria-hidden="true"></i></a>
+			<a href="https://www.linkedin.com/in/akil-howard/" target='_blank'><i class="fa fa-linkedin-square fa-2x linkedin" aria-hidden="true"></i></a>
+		</div>
+	</header>
+
+	<!-- Main Area -->
+	<main id="main">
+		<!-- Section A -->
+		<section id="section-a" class="grid">
+			<div class="content-wrap">
+				<h2 class="content-title">Technology and Development Skills</h2>
+				<div class="btn-group btn-group-lg">
+			    <button id="front" type="button" class="btn btn-primary">Front End</button>
+			    <button id="back" type="button" class="btn btn-primary">Back End</button>
+			    <button id="dev" type="button" class="btn btn-primary">Dev Tools</button>
+					<button id="all" type="button" class="btn btn-primary">All</button>
+  			</div>
+				<div id="iso" class="devicons">
+				<!-- LINUX -->
+				<i class="devicon-linux-plain devicon dev"></i>
+				<!-- APACHE -->
+				<i class="devicon-apache-line-wordmark devicon dev"></i>
+				<!-- MySQL -->
+				<i class="devicon-mysql-plain-wordmark devicon back"></i>
+				<!-- PYTHON -->
+				<i class="devicon-python-plain-wordmark devicon back"></i>
+				<!-- HTML -->
+				<i class="devicon-html5-plain-wordmark devicon front"></i>
+				<!-- CSS -->
+				<i class="devicon-css3-plain-wordmark devicon front"></i>
+				<!-- JAVASCRIPT -->
+				<i class="devicon-javascript-plain devicon front"></i>
+				<!-- JQuery -->
+				<i class="devicon-jquery-plain-wordmark devicon front"></i>
+				<!-- BOOTSTRAP -->
+				<i class="devicon-bootstrap-plain-wordmark devicon front"></i>
+				<!-- Django -->
+				<i class="devicon-django-plain-wordmark devicon back"></i>
+				<!-- RUBY -->
+				<i class="devicon-ruby-plain-wordmark devicon back"></i>
+				<!-- RAILS -->
+				<i class="devicon-rails-plain-wordmark devicon back"></i>
+				<!-- AMAZON WEB SERVICES -->
+				<i class="devicon-amazonwebservices-plain-wordmark devicon dev"></i>
+				<!-- UBUNTU -->
+				<i class="devicon-ubuntu-plain-wordmark devicon dev"></i>
+				<!-- Gulp -->
+				<i class="devicon-gulp-plain devicon dev"></i>
+				<!-- SASS -->
+				<i class="devicon-sass-original devicon front"></i>
+				<!-- WEBPACK -->
+				<i class="devicon-webpack-plain-wordmark devicon front"></i>
+				<!-- TRELLO -->
+				<i class="devicon-trello-plain-wordmark devicon dev"></i>
+				<!-- BABEL -->
+				<i class="devicon-babel-plain devicon front"></i>
+				<!-- JASMINE -->
+				<i class="devicon-jasmine-plain-wordmark devicon dev"></i>
+				<!-- MONGO -->
+				<i class="devicon-mongodb-plain-wordmark devicon back"></i>
+				<!-- Express -->
+				<i class="devicon-express-original-wordmark devicon back"></i>
+				<!-- REACT -->
+				<i class="devicon-react-original-wordmark devicon front"></i>
+				<!-- NODE -->
+				<i class="devicon-nodejs-plain-wordmark devicon back"></i>
+				<!-- NGINX -->
+				<i class="devicon-nginx-original devicon dev"></i>
+				<!-- GIT -->
+				<i class="devicon-git-plain-wordmark devicon dev"></i>
+				<!-- SOURCETREE -->
+				<i class="devicon-sourcetree-plain-wordmark devicon dev"></i>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section B -->
+		<section id="section-b">
+			<ul>
+				<li>
+					<a href="https://pure-reef-42303.herokuapp.com/" target='_blank'><div data-tilt data-tilt-axis data-tilt-glare data-tilt-max-glare="0.8" class="card">
+						<img src="images/fastfeedback.png" alt="">
+						<div class="card-content">
+							<h3 class="card-title">Fast Feedback</h3>
+							<h4>Tools</h4>
+							<p>Fast Feedback is a desktop application built with React with CSS Modules on the front end, Node/Express on the back end, as well as MongoDB.</p> 
+								<h4>Use</h4>
+								<p>Sign in using Google Auth. 
+								Add credits using Stripe API. 
+								Create surveys from within the application using Redux Form and the app will send an email to your clients. 
+								Recipients can cast a vote from within their email. 
+								The app will tabulate votes for you. 
+								</p>
+						</div>
+					</div></a>
+				</li>
+				<li>
+					<a href="http://www.sofya.codes/MomentumClone/" target='_blank'><div data-tilt data-tilt-axis data-tilt-glare data-tilt-max-glare="0.8" class="card">
+						<img src="images/myDay.png" alt="">
+						<div class="card-content">
+							<h3 class="card-title">Github Search App</h3>
+							<h4>Tools</h4>
+							<p>Desktop Application that clones and improves Momentum Google Chrome Extension. Built with JS, Firebase, and CSS, and a variety of third party APIs.</p>
+							<h4>Use</h4>
+							<p>Create a profile and login through Google Firebase AUthentication. 
+								Track current weather for your location, check out current events in your area, search the internet 
+								Get inspired through a random quote of the day, as well as a new background every time you refresh the page 
+								Organize your tasks through to do functionality of the app that persists due to Firebase Database.</p>
+						</div>
+					</div></a>
+				</li>
+				<li>
+					<a href="http://ahowardc.com/MovieSearchApp/" target='_blank'><div data-tilt data-tilt-axis data-tilt-glare data-tilt-max-glare="0.8" class="card">
+						<img src="images/moviesApp.png" alt="">
+						<div class="card-content">
+							<h3 class="card-title">Movie App</h3>
+							<h4>Tools</h4>
+							<p>An app made with HTML, CSS, JavaScript/JQuery, Bootstrap and The Movie DB API. 
+							</p>
+							<h4>Use</h4>
+							<p>Find any movie that has been playing in theaters, including new releases. 
+								Filter the movies as you wish with a pull out navigation bar. 
+								Enjoy seamless infinite scrolling and mobile compatible interface. </p>
+						</div>
+					</div></a>
+				</li>
+				<li>
+					<a href="http://eatsushihouse.com/" target='_blank'><div data-tilt data-tilt-axis data-tilt-glare data-tilt-max-glare="0.8" class="card">
+						<img src="images/eatsushihouse.png" alt="">
+						<div class="card-content">
+							<h3 class="card-title">The Sushi House</h3>
+							<h4>Tools</h4>
+							<p>The Sushi House is a sushi restaurant website made with PHP on Wordpress CMS, MySQL, custom CSS and custom JavaScript. 
+							</p>
+							<h4>Use</h4>
+							<p>Imagine yourself at The Sushi House, create a reservation and get in touch. 
+								Reservation updates will be sent directly to your email. 
+								Enjoy this mobile responsive site, with full-stack capabilities.</p>
+						</div>
+					</div></a>
+				</li>
+			</ul>
+			<!-- <section id="section-c" class="grid">
+				<div class="content-wrap">
+					<h2 class="content-title">Mortal Kombat</h2>
+					<video width="550" height="400" autoplay loop>
+						<source src="images/MKVideo.mov" type="video/mp4">
+					</video>
+				<p>A nineties Mortal Kombat computer game. The game was created using the python programming language using pygame. The main character Lui Kang can battle with all the original characters of the 1992 version one release with some newer characters and new fighting areanas added in from later installments.</p>
+			</div>
+			</section> -->
+		</section>
+
+		<!-- Section C -->
+		<section id="section-c" class="grid">
+			<div class="content-wrap">
+				<h2 class="content-title">About Me</h2>
+				<p>I enjoy travelling and meeting people. I'm always looking to learn new programming languages, libraries and frameworks to impove my skill set.  I enjoy sharing new ideas and concepts that I learn about and I try to grow and learn each day.</p>
+			</div>
+		</section>
+
+		<!-- Section D -->
+		<section id="section-d" class="grid">
+			<div class="box">
+				<h2 class="content-title">Contact Me</h2>
+				<p>Please reach out to me. I'd love to help you make your next big idea come to life.</p>
+				<p>Akil.Howard1@gmail.com</p>
+			</div>
+			<div class="box">
+				<div class="content-title"><h2 class="content-title">Follow Your Passion</h2></div>
+				<script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
+				<small><i><a href="https://www.brainyquote.com/quote_of_the_day" target="_blank" rel="nofollow">more Quotes</a></i></small>
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer -->
+	<footer id="main-footer" class="grid">
+		<div class="footer">
+			<a href="https://github.com/AHowardC" target='_blank'><i class="fa fa-github fa-2x github" aria-hidden="true"></i></a>
+			<a href="https://www.linkedin.com/in/akil-howard/" target='_blank'><i class="fa fa-linkedin-square fa-2x linkedin" aria-hidden="true"></i></a>
+		</div>
+		<div>Created by <a href="https://www.linkedin.com/in/akil-howard/" target="_blank">Akil Howard</a></div>
+	</footer>
+	<script type="text/javascript" src="vanilla-tilt.min.js"></script>
+</body>
+</html>
